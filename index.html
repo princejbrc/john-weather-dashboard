@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John's Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <button class="tab-button active" data-target="guntersville">Guntersville, AL</button>
+    <button class="tab-button" data-target="stpete">St. Pete Beach, FL</button>
+  </nav>
+  <main>
+    <section id="guntersville" class="tab-content">
+      <h2>Guntersville, AL</h2>
+      <div id="weather-guntersville">Loading weather...</div>
+      <div id="risk-guntersville">Risk: ...</div>
+    </section>
+    <section id="stpete" class="tab-content" style="display:none;">
+      <h2>St. Pete Beach, FL</h2>
+      <div id="weather-stpete">Loading weather...</div>
+      <div id="risk-stpete">Risk: ...</div>
+      <div id="tide-stpete">Tide: ...</div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
