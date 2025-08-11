@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+nav {
+  display: flex;
+  background: #333;
+  color: #fff;
+}
+nav button {
+  padding: 15px;
+  flex: 1;
+  background: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+nav button.active {
+  background: #555;
+}
+main {
+  padding: 20px;
+}
+.tab-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
