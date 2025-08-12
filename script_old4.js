@@ -1,7 +1,6 @@
 // Coordinates and timezone for each location
 const coords = {
-    guntersville: { lat: 34.3589, lon: -86.2940, timezone: 'America/Chicago' },
-    stpete: { lat: 27.7429, lon: -82.7429, timezone: 'America/New_York' }
+    guntersville: { lat: 34.3589, lon: -86.2940, timezone: 'America/Chicago' },    stpete: { lat: 27.7429, lon: -82.7429, timezone: 'America/New_York' }
 };
 
 // Map Open-Meteo weather codes to descriptions
